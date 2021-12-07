@@ -19,18 +19,16 @@ Aby dostać się do poszczególnego elementu tablicy wielowymiarowej, należy po
 
 `int a[4][5]; `
 
-||||||
-| :-: | :-: | :-: | :-: | :-: |
 |`a[0][0];`|`a[0][1];`|`a[0][2];`|`a[0][3];`|`a[0][4];`|
+| :-: | :-: | :-: | :-: | :-: |
 |`a[1][0];`|`a[1][1];`|`a[1][2];`|`a[1][3];`|`a[1][4];`|
 |`a[2][0];`|`a[2][1];`|`a[2][2];`|`a[2][3];`|`a[2][4];`|
 |`a[3][0];`|`a[3][1];`|`a[3][2];`|`a[3][3];`|`a[3][4];`|
 
 W praktyce w pamięci, tablica taka definiowana jest tak samo jak tablica jednowymiarowa, pamięć bowiem jest właśnie jednowymiarowa. W pamięci zatem tablica taka będzie ułożona w następujący sposób.
 
-|||||||||
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | 
 |`a[0][0];`|`a[0][1];`|`a[0][2];`|`a[0][3];`|`a[0][4];`|...|`a[3][3];`|`a[3][4];`|
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | 
 
 
 Zauważmy więc, że program poprzez zapis `a[0][5];` dostanie się do elementu tablicy o indeksie `a[1][0];`. Jednak odwoływanie się do elementów tablicy w ten sposób jest niezalecane- działa, ale prowadzi do bałaganu w kodzie oraz ciężkich do wykrycia błędów (bo program najpewniej skompiluje się, ale wystąpi błąd dostępu do pamięci znany jako *segfault*), kiedy programista straci nad tym kontrolę. Więc zalecane jest użycie maksymalnie takiego indeksu jaki jest legalnym rozmiarem tablicy.
