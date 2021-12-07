@@ -226,6 +226,6 @@ void scanf_arr_2Dim(unsigned size_x, unsigned size_y, int array[][size_y])
 
 
 ***
-[Poprzednia część](https://github.com/CyberMALab/Tablice-znakow.git) | [Spis treści](https://github.com/CyberMALab/Wprowadzenie-do-programowania-w-j-zyku-ANSI-C.git) | [Następna część](https://github.com/CyberMALab/Comming-Soon.git)
+[Poprzednia część](https://github.com/CyberMALab/Tablice-znakow.git) | [Spis treści](https://github.com/CyberMALab/Wprowadzenie-do-programowania-w-j-zyku-ANSI-C.git) | [Następna część](https://github.com/CyberMALab/Zmienne-zlozone-struktury-i-unie.git)
 ***
 &copy; Cyberspace Modelling and Analysis Laboratory
