@@ -192,6 +192,11 @@ void scanf_arr_2Dim(unsigned size_x, unsigned size_y, int array[][size_y])
 >
 >tablica[2][2]=   9
 
+## Zadania do samodzielnego rozwiązania
+
+1. Stwórz program, który wczytuje wartości do tablicy 4x4 a następnie wyświetla je w formie tabeli.
+2. Rozwiń program z zadania 1 tak aby liczby były posortowane wierszami (każdy wiersz posortowany od najmniejszej do największej wartości).
+3. 
 
 
 ***
