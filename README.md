@@ -11,6 +11,7 @@ Deklaracja tablic wielowymiarowych jest analogiczna do deklaracji jednowymiarowe
 *Przykład (10.0) deklaracja tablic wielowymiarowych*
 
 `int a[5][5]; /* tablica dwuwymiarowa 5x5 */`
+
 `int b[2][4][2]; /* tablica trójwymiarowa 2x4x2 */`
 
 
