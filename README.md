@@ -223,6 +223,7 @@ void scanf_arr_2Dim(unsigned size_x, unsigned size_y, int array[][size_y])
 4. Napisz program, który generuje tablicę 5 wymiarową o wymiarach 3x3x3x3x3. Kolejne wymiary będziemy nazywać ZBIÓR, ZESTAW, KOSTKA, WARSTWA, WIERSZ. Napisz program który umożliwy wyświetlanie oraz edytowanie wartości na dowolnym poziomie warstwy.
 5. Napisz funkcje, które wczytują rozmiar oraz wartości macierzy oraz je wyświetlają. Macierz należy ograniczyć do maksymalnego rozmiaru 6x6.
 6. Napisz funkcję wykonującą program mnożenia dwóch macierzy (mnożenie Cauch'ego). Jeżeli mnożenie nie jest możliwe funkcja zwraca -1, jeżeli możliwe zwraca 0 i wykonuje obliczenia do macierzy wynikowej. Wykorzystać program z zadania nr 3 i stworzyć funkcjonalny klalkulator macierzy (max rozmiar 6x6).
+7. Wczytaj dziewięć liczb całkowitych do tablicy `3x3`, a potem wypisz jej transpozycję. Element `tablica[i][j]` ma pojawić się na pozycji `j,i`.
 
 
 ***
