@@ -134,7 +134,7 @@ void print_arr_2Dim(unsigned size_x, unsigned size_y, int array[][size_y])
 		{
 			for(j=0; j<size_y; j++)
 			{
-			printf("\ntablica[%d][%d]= %3d",i,j,array[i][j]);
+			printf("\ntablica[%u][%u]= %3d",i,j,array[i][j]);
 			}
 		}	
 }
@@ -145,7 +145,7 @@ void scanf_arr_2Dim(unsigned size_x, unsigned size_y, int array[][size_y])
 	{
 		for(j=0; j<size_y; j++)
 		{
-			printf("Podaj tablica[%d][%d]: ",i,j);
+			printf("Podaj tablica[%u][%u]: ",i,j);
 			scanf(" %d", &array[i][j]);
 		}
 	}
@@ -220,9 +220,9 @@ void scanf_arr_2Dim(unsigned size_x, unsigned size_y, int array[][size_y])
 > 
 > | 3 | 5 | 5 | 2 | 2 | 1 | 3 | 5 | 5 | 3 | 2 |
 
-5. Napisz program, który generuje tablicę 5 wymiarową o wymiarach 3x3x3x3x3. Kolejne wymiary będziemy nazywać ZBIÓR, ZESTAW, KOSTKA, WARSTWA, WIERSZ. Napisz program który umożliwy wyświetlanie oraz edytowanie wartości na dowolnym poziomie warstwy. 
-6. Napisz funkcje, które wczytują rozmiar oraz wartości macierzy oraz je wyświetlają. Macierz należy ograniczyć do maksymalnego rozmiaru 6x6.
-7. Napisz funkcję wykonującą program mnożenia dwóch macierzy (mnożenie Cauch'ego). Jeżeli mnożenie nie jest możliwe funkcja zwraca -1, jeżeli możliwe zwraca 0 i wykonuje obliczenia do macierzy wynikowej. Wykorzystać program z zadania nr 3 i stworzyć funkcjonalny klalkulator macierzy (max rozmiar 6x6).
+4. Napisz program, który generuje tablicę 5 wymiarową o wymiarach 3x3x3x3x3. Kolejne wymiary będziemy nazywać ZBIÓR, ZESTAW, KOSTKA, WARSTWA, WIERSZ. Napisz program który umożliwy wyświetlanie oraz edytowanie wartości na dowolnym poziomie warstwy.
+5. Napisz funkcje, które wczytują rozmiar oraz wartości macierzy oraz je wyświetlają. Macierz należy ograniczyć do maksymalnego rozmiaru 6x6.
+6. Napisz funkcję wykonującą program mnożenia dwóch macierzy (mnożenie Cauch'ego). Jeżeli mnożenie nie jest możliwe funkcja zwraca -1, jeżeli możliwe zwraca 0 i wykonuje obliczenia do macierzy wynikowej. Wykorzystać program z zadania nr 3 i stworzyć funkcjonalny klalkulator macierzy (max rozmiar 6x6).
 
 
 ***
