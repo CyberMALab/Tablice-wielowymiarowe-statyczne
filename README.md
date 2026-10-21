@@ -194,7 +194,7 @@ void scanf_arr_2Dim(unsigned size_x, unsigned size_y, int array[][size_y])
 
 ## Zadania do samodzielnego rozwiązania
 
-1. Stwórz program, który wczytuje wartości do tablicy 4x4 a następnie wyświetla je w formie tabeli.
+1. Utwórz program, który wczytuje wartości do tablicy 4x4 a następnie wyświetla je w formie tabeli.
 2. Rozwiń program z zadania 1 tak aby liczby były posortowane wierszami (każdy wiersz posortowany od najmniejszej do największej wartości).
 3. Napisz program, który losuje liczby całkowite w zakresie 0-9 do tablicy trójwymiarowej o rozmiarze 10x10x10 a następnie wypisuje je w formie tabelek z poszczególnych warstw np:
 
